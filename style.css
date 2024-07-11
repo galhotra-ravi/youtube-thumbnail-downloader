@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2988c8;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.underline {
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.github-link:hover {
+    opacity: 0.8;
+}
+
+.github-icon {
+    margin-right: 0.5rem;
+}
+
+.github-text {
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.inputBox {
+    margin-bottom: 1rem;
+}
+
+#linkText {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1rem;
+    border: 2px solid #2988c8;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#linkText:focus {
+    border-color: #1c6ea4;
+}
+
+.downloadBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2988c8;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    min-height: 44px;
+}
+
+.downloadBtn:hover {
+    background-color: #1c6ea4;
+}
+
+#downloadThumb {
+    display: none;
+    margin-top: 1rem;
+}
+
+#finalThumb {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+    /* border: 3px solid #2988c8; */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2988c8;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+footer .github-icon {
+    margin-right: 0.3rem;
+}
+
+/* Responsive design */
+@media (min-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .inputBox {
+        flex-grow: 1;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+
+    #searchThumb {
+        width: auto;
+    }
+
+    .github-link {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    main {
+        margin: 2rem auto;
+    }
+
+    #linkText {
+        font-size: 1.1rem;
+    }
+
+    .downloadBtn {
+        font-size: 1.1rem;
+    }
+
+    .github-link {
+        font-size: 1.1rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .inputBox{
+        min-width: 600px;
+    }
+
+    main {
+        margin: 2.5rem auto;
+    }
+
+    #linkText {
+        font-size: 1.2rem;
+    }
+
+    .downloadBtn {
+        font-size: 1.2rem;
+    }
+
+    .github-link {
+        font-size: 1.2rem;
+    }
+}
