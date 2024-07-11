@@ -25,7 +25,7 @@ You need a web browser to open the HTML file.
 1. **Clone the repo**
 
    ```sh
-   git clone https://github.com/your-username/download-yt-thumbnail.git
+   git clone https://github.com/galhotra-ravi/youtube-thumbnail-downloader.git
 
 2.
    **Open the index.html file in your web browser.**
