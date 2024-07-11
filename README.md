@@ -32,7 +32,8 @@ You need a web browser to open the HTML file.
    
 ## Usage
 - **Enter the YouTube video URL:** Paste the URL of the YouTube video into the input field.
-- **Click the "Get Thumbnail" button:** The thumbnail will be displayed below the input field.
+- **Click the "Search" button:** The thumbnail will be displayed below the input field.
+- **Click the "Download" button:** The thumbnail image will be opened in a new tab.
 - **Download the Thumbnail:** Right-click on the displayed thumbnail and select "Save image as..." to download it.
 
 ## Technologies Used
