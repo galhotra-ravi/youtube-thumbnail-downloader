@@ -26,3 +26,15 @@ You need a web browser to open the HTML file.
 
    ```sh
    git clone https://github.com/your-username/download-yt-thumbnail.git
+
+   Open the index.html file in your web browser.
+   
+## Usage
+- **Enter the YouTube video URL:** Paste the URL of the YouTube video into the input field.
+- **Click the "Get Thumbnail" button:** The thumbnail will be displayed below the input field.
+- **Download the Thumbnail:** Right-click on the displayed thumbnail and select "Save image as..." to download it.
+
+## Technologies Used
+- HTML: For structuring the web page.
+- CSS: For styling the web page.
+- JavaScript: For fetching and displaying the thumbnail.
