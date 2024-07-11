@@ -27,7 +27,8 @@ You need a web browser to open the HTML file.
    ```sh
    git clone https://github.com/your-username/download-yt-thumbnail.git
 
-   Open the index.html file in your web browser.
+2.
+   **Open the index.html file in your web browser.**
    
 ## Usage
 - **Enter the YouTube video URL:** Paste the URL of the YouTube video into the input field.
